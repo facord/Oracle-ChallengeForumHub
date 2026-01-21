@@ -85,6 +85,11 @@ Após subir a aplicação, a documentação estará disponível em:
 
 ## ▶️ Como Executar o Projeto
 
+É necessário criar as váriaveis de ambiente para teste ou a troca das informações em "application.properties":
+spring.datasource.url=${DATASOURCE_URL}
+spring.datasource.username=${DATASOURCE_USERNAME}
+spring.datasource.password=${DATASOURCE_PASSWORD}
+
 ### Pré-requisitos
 
 - Java 17+
@@ -95,7 +100,7 @@ Após subir a aplicação, a documentação estará disponível em:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/challenge-forum-hub.git
+git clone https://github.com/facord/Oracle-ChallengeForumHub.git
 
 # Acesse o projeto
 cd challenge-forum-hub
