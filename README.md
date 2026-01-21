@@ -115,13 +115,19 @@ mvn spring-boot:run
 
 ```http
 POST /login
-GET  /topicos
-POST /topicos
-PUT  /topicos/{id}
-DELETE /topicos/{id}
+GET /topico
+GET /topico/{id}
+GET /topico/ordenados
+GET /topico/curso/{idCurso}
+POST /topico
+PUT  /topico/{id}
+DELETE /topico/{id}
+GET /topico/{id}/respostas
 
-POST /respostas
-GET  /topicos/{id}/respostas
+POST /resposta
+GET /resposta/{id}
+DELETE /resposta/{id}
+PUT /resposta/{id}
 ```
 
 ---
