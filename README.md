@@ -86,9 +86,9 @@ Após subir a aplicação, a documentação estará disponível em:
 ## ▶️ Como Executar o Projeto
 
 É necessário criar as váriaveis de ambiente para teste ou a troca das informações em "application.properties":
-spring.datasource.url=${DATASOURCE_URL}
-spring.datasource.username=${DATASOURCE_USERNAME}
-spring.datasource.password=${DATASOURCE_PASSWORD}
+<p>spring.datasource.url=${DATASOURCE_URL}</p>
+<p>spring.datasource.username=${DATASOURCE_USERNAME}</p>
+<p>spring.datasource.password=${DATASOURCE_PASSWORD}</p>
 
 ### Pré-requisitos
 
